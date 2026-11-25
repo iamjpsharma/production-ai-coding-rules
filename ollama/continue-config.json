@@ -1,0 +1,24 @@
+{
+  "models": [
+    {
+      "title": "Qwen3-Coder 30B (Local 64K)",
+      "provider": "ollama",
+      "model": "qwen3-coder-64k",
+      "apiBase": "http://localhost:11434",
+      "contextLength": 65536
+    },
+    {
+      "title": "Gemma 4 12B (16GB Mac Safe)",
+      "provider": "ollama",
+      "model": "gemma4:12b",
+      "apiBase": "http://localhost:11434",
+      "contextLength": 32768
+    }
+  ],
+  "tabAutocompleteModel": {
+    "title": "Qwen3.5 9B Autocomplete",
+    "provider": "ollama",
+    "model": "qwen3.5:9b",
+    "apiBase": "http://localhost:11434"
+  }
+}

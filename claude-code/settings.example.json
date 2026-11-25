@@ -1,0 +1,11 @@
+{
+  "authMode": "max-prompt-cache",
+  "loopFallback": "ollama/qwen3-coder:30b",
+  "permissions": {
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(git push --force*)"
+    ]
+  },
+  "notes": "Avoid raw uncached API keys for 20+ step agentic loops; use prompt-cached sessions or route routine tasks to localhost:11434."
+}

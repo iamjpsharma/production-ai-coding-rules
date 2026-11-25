@@ -1,0 +1,5 @@
+FROM qwen3-coder:30b
+
+# Bump context window from default 4096 to 65536 so multi-file agentic edits don't truncate
+PARAMETER num_ctx 65536
+PARAMETER temperature 0.2
